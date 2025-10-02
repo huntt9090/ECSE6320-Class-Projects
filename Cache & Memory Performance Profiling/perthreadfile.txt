@@ -1,0 +1,2 @@
+0-7 R rand 100000 dram
+8-15 R seq 200m dram

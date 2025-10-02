@@ -1,0 +1,18 @@
+Zero-queue baseline cache latency: ./mlc --idle_latency -b<n> -c0 -t<n>
+
+- measures cache hit latency
+- -t<n>: specify measurement time in <n> seconds
+- -b<n>: specify buffer size in <n> KB, proper buffer size determines what cache is being measured
+	- AMD Ryzen 7 7800X3D: L1=64KB, L2=1MB, L3=96MB
+	- -b8 or-b16 for L1
+	- -b128 or -b256 for
+	- -b3m+ for L3
+
+================================================================================================================
+Project 3:
+
+CSV Default Format:
+	time(msec), value, data direction, block size, command priority
+
+Anomalies/limitations:
+	Run on a high-use workstation, while r/w was isolated to one partition the physical device was intermittently accessed by external programs which would undoubtedly have 	some effect on the experimental results.

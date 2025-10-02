@@ -1,0 +1,19 @@
+L1 Single-Access Baseline
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b16 -c8 -x0 
+
+Using buffer size of 0.016MiB
+Each iteration took 388.2 base frequency clocks (	92.6	ns)
+
+L2 Single-Access Baseline
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b256 -c8 -x0 
+
+Using buffer size of 0.250MiB
+Each iteration took 398.0 base frequency clocks (	94.8	ns)
+
+L3 Single-Access Baseline
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b3m -c8 -x0 
+
+Using buffer size of 3.000MiB
